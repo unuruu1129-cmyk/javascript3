@@ -142,4 +142,4 @@
 // }
 
 const student = { name: "Бат", age: 16 };
-console.log(student.age>=0 ? true: false, student.email=="" ? true: false);
+console.log("name" in student, "email" in student);
