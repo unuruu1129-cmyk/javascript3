@@ -141,5 +141,177 @@
 //   console.log("Тэнцээгүй");
 // }
 
-const student = { name: "Бат", age: 16 };
-console.log("name" in student, "email" in student);
+// const student = { name: "Бат", age: 16 };
+// console.log("name" in student, "email" in student);
+
+// const student = { name: "Болд", address: { city: "Улаанбаатар", district: "Хан-Уул" } }
+// console.log(student.address.city);
+
+// const person = { name: "Ану", address: { city: "Улаанбаатар", district: "Баянзүрх" } }
+// if ("Улаанбаатар" === person.address.city) {
+//     console.log(person.address.district);
+// } else { console.log("Орон нутгийн оршин суугч"); }
+
+// const student = { name: "Бат", scores: { math: 70, english: 80 } }
+// if (student.scores.math<80){
+//     console.log(student.scores.math+10);    
+// } else {
+//     console.log("Нэмэлт оноо шаардлагагүй");
+// }
+
+// const names = ["Бат", "Ану"];
+// let temp=names[0];
+// names[0]=names[1]
+// names[1]=temp
+// console.log(names);
+
+// const fruits = ["Алим", "Банана", "Жүрж"];
+// console.log(fruits.includes("Банана") ? "Банана байна" : "Банана алга" );
+
+// const students = ["Бат", "Ану", "Болд", "Сараа"];
+// console.log(students.indexOf("Болд"));
+
+
+// const order = {
+//     product: { price: 5000, quantity: 3 },
+//     delivery: { fee: 2500 }
+// };
+// const subtotal = order.product.price * order.product.quantity;
+// if (subtotal >= 20000) {
+//     order.delivery.fee = 0;
+// }
+// order.total = subtotal + order.delivery.fee;
+// console.log(order.total);
+
+// const user1 = { name: "Болд", age: 20 }, 
+//     user2 = { email: "bold@example.com", city: "Улаанбаатар" };
+//     console.log(Object.assign(user1,user2));
+    
+// const cart = [];
+// if (cart.length===0) {
+//     console.log("Сагс хоосон");
+    
+// }else {
+//     console.log("Сагсанд бараа байна");
+// }
+
+// const numbers = [35, 20];
+// if (numbers[0] > numbers[1]) {
+//     console.log(numbers[0]);
+// } else if (numbers[1] > numbers[0]) {
+//     console.log(numbers[1]);
+// } else {
+//     console.log("Хоёр тоо тэнцүү");
+// }
+
+
+// const students = ["Бат", "Ану"];
+// const newStudent = "Сараа";
+
+//  if (!students.includes(newStudent)) {
+//         students.push(newStudent);
+//     } else {
+//         console.log("Энэ нэр бүртгэлтэй байна");
+//     }
+
+// console.log(students);
+
+
+    // const user1 = { name: "Ану", age: 18 };
+    // const user2 = {
+    //     email: "anu@example.com",
+    //     city: "Улаанбаатар"
+    // };
+
+    // const user = { ...user1, ...user2 };
+
+    // console.log(user);
+
+
+    // const groupA = ["Бат", "Ану"];
+    // const groupB = ["Болд", "Сараа"];
+
+    // const allStudents = groupA.concat(groupB);
+
+    // console.log(allStudents);
+
+
+    // const original = [10, 20, 30];
+
+    // const copied = [...original];
+
+    // copied[0] = 99;
+
+    // console.log(original);
+    // console.log(copied);   
+
+
+
+
+    // const numbers = [10, 20, 30, 40, 50];
+
+    // const result = numbers.slice(1, 4);
+
+    // console.log(result);
+
+
+
+
+    // const user = {
+    //     name: "Сараа",
+    //     age: 22,
+    //     email: "saraa@example.com"
+    // };
+
+    // const profile = {
+    //     name: user.name,
+    //     age: user.age
+    // };
+
+    // profile.name = "Бат";
+
+    // console.log(profile.name); 
+    // console.log(user.name);    
+
+
+
+    // const colors = ["Улаан", "Ногоон", "Цэнхэр", "Шар"];
+
+    // colors.splice(1, 1);
+
+    // console.log(colors);
+
+
+
+    // const days = ["Даваа", "Лхагва"];
+
+    // days.splice(1, 0, "Мягмар");
+
+    // console.log(days);
+
+
+
+
+    // const words = ["Би", "JavaScript", "сурч", "байна."];
+
+    // const sentence = words.join(" ");
+
+    // console.log(sentence);
+
+
+
+
+    // const students = [
+    //     { name: "Бат", score: 75 },
+    //     { name: "Ану", score: 90 }
+    // ];
+
+    // students[0].score += 10;
+
+    // console.log(students[0].score); // 85
+
+    // if (students[1].score >= 90) {
+    //     console.log("Ану маш сайн");
+    // } else {
+    //     console.log("Ану хичээгээрэй");
+    // }
