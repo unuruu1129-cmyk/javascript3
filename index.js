@@ -154,7 +154,7 @@
 
 // const student = { name: "Бат", scores: { math: 70, english: 80 } }
 // if (student.scores.math<80){
-//     console.log(student.scores.math+10);    
+//     console.log(student.scores.math+10);
 // } else {
 //     console.log("Нэмэлт оноо шаардлагагүй");
 // }
@@ -171,7 +171,6 @@
 // const students = ["Бат", "Ану", "Болд", "Сараа"];
 // console.log(students.indexOf("Болд"));
 
-
 // const order = {
 //     product: { price: 5000, quantity: 3 },
 //     delivery: { fee: 2500 }
@@ -183,14 +182,14 @@
 // order.total = subtotal + order.delivery.fee;
 // console.log(order.total);
 
-// const user1 = { name: "Болд", age: 20 }, 
+// const user1 = { name: "Болд", age: 20 },
 //     user2 = { email: "bold@example.com", city: "Улаанбаатар" };
 //     console.log(Object.assign(user1,user2));
-    
+
 // const cart = [];
 // if (cart.length===0) {
 //     console.log("Сагс хоосон");
-    
+
 // }else {
 //     console.log("Сагсанд бараа байна");
 // }
@@ -204,7 +203,6 @@
 //     console.log("Хоёр тоо тэнцүү");
 // }
 
-
 // const students = ["Бат", "Ану"];
 // const newStudent = "Сараа";
 
@@ -216,102 +214,83 @@
 
 // console.log(students);
 
+// const user1 = { name: "Ану", age: 18 };
+// const user2 = {
+//     email: "anu@example.com",
+//     city: "Улаанбаатар"
+// };
 
-    // const user1 = { name: "Ану", age: 18 };
-    // const user2 = {
-    //     email: "anu@example.com",
-    //     city: "Улаанбаатар"
-    // };
+// const user = { ...user1, ...user2 };
 
-    // const user = { ...user1, ...user2 };
+// console.log(user);
 
-    // console.log(user);
+// const groupA = ["Бат", "Ану"];
+// const groupB = ["Болд", "Сараа"];
 
+// const allStudents = groupA.concat(groupB);
 
-    // const groupA = ["Бат", "Ану"];
-    // const groupB = ["Болд", "Сараа"];
+// console.log(allStudents);
 
-    // const allStudents = groupA.concat(groupB);
+// const original = [10, 20, 30];
 
-    // console.log(allStudents);
+// const copied = [...original];
 
+// copied[0] = 99;
 
-    // const original = [10, 20, 30];
+// console.log(original);
+// console.log(copied);
 
-    // const copied = [...original];
+// const numbers = [10, 20, 30, 40, 50];
 
-    // copied[0] = 99;
+// const result = numbers.slice(1, 4);
 
-    // console.log(original);
-    // console.log(copied);   
+// console.log(result);
 
+// const user = {
+//     name: "Сараа",
+//     age: 22,
+//     email: "saraa@example.com"
+// };
 
+// const profile = {
+//     name: user.name,
+//     age: user.age
+// };
 
+// profile.name = "Бат";
 
-    // const numbers = [10, 20, 30, 40, 50];
+// console.log(profile.name);
+// console.log(user.name);
 
-    // const result = numbers.slice(1, 4);
+// const colors = ["Улаан", "Ногоон", "Цэнхэр", "Шар"];
 
-    // console.log(result);
+// colors.splice(1, 1);
 
+// console.log(colors);
 
+// const days = ["Даваа", "Лхагва"];
 
+// days.splice(1, 0, "Мягмар");
 
-    // const user = {
-    //     name: "Сараа",
-    //     age: 22,
-    //     email: "saraa@example.com"
-    // };
+// console.log(days);
 
-    // const profile = {
-    //     name: user.name,
-    //     age: user.age
-    // };
+// const words = ["Би", "JavaScript", "сурч", "байна."];
 
-    // profile.name = "Бат";
+// const sentence = words.join(" ");
 
-    // console.log(profile.name); 
-    // console.log(user.name);    
+// console.log(sentence);
 
+// const students = [
+//     { name: "Бат", score: 75 },
+//     { name: "Ану", score: 90 }
+// ];
 
+// students[0].score += 10;
 
-    // const colors = ["Улаан", "Ногоон", "Цэнхэр", "Шар"];
+// console.log(students[0].score); // 85
 
-    // colors.splice(1, 1);
-
-    // console.log(colors);
-
-
-
-    // const days = ["Даваа", "Лхагва"];
-
-    // days.splice(1, 0, "Мягмар");
-
-    // console.log(days);
-
-
-
-
-    // const words = ["Би", "JavaScript", "сурч", "байна."];
-
-    // const sentence = words.join(" ");
-
-    // console.log(sentence);
-
-
-
-
-    // const students = [
-    //     { name: "Бат", score: 75 },
-    //     { name: "Ану", score: 90 }
-    // ];
-
-    // students[0].score += 10;
-
-    // console.log(students[0].score); // 85
-
-    // if (students[1].score >= 90) {
-    //     console.log("Ану маш сайн");
-    // } else {
-    //     console.log("Ану хичээгээрэй");
-    // }
+// if (students[1].score >= 90) {
+//     console.log("Ану маш сайн");
+// } else {
+//     console.log("Ану хичээгээрэй");
+// }
